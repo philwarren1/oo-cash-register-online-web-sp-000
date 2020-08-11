@@ -10,11 +10,6 @@ class CashRegister
   end
   
  
- 
- def total
-   @total
- end
- 
  def add_item(title, price, quantity = 1)
    if quantity>1
       i=0
